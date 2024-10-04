@@ -1,0 +1,37 @@
+.banner {
+  background-color: var(--cor-primaria);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.banner-home {
+  background-image: url(../../../public/banner-home.png);
+  background-size: contain;
+}
+
+.banner-sabores {
+  background-image: url(../../../public/banner-sabores.jpg);
+}
+
+.banner-sobre {
+  background-image: url(../../../public/banner-sobre.png);
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5rem;
+  color: var(--cor-01);
+  text-shadow: 3px 5px 2px var(--cor-03);
+}
+
+@media (max-width: 500px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,20 @@
+.sabor {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 2px 2px 15px 2px var(--cor-02);
+  text-align: center;
+}
+
+.sabor img {
+  object-fit: contain;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .sabor {
+    padding: 2px;
+  }
+}
