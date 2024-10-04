@@ -1,0 +1,17 @@
+.sobre .container {
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,32 @@
+.sabores {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 32px 0;
+}
+
+.sabores h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 1020px) {
+  .sabores {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .sabores {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .sabores {
+    padding: 12px;
+    gap: 32px 0;
+  }
+}
