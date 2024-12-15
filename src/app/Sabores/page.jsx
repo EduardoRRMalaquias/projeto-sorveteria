@@ -11,6 +11,12 @@ import sabor4 from '../../../public/sorbet-kiwi.png';
 import sabor5 from '../../../public/sorbet-morango.png';
 import sabor6 from '../../../public/sorbet-limao.png';
 
+export const metadata = {
+  title: 'Gelateria | Sabores',
+  description:
+    'Nossa gelateria Sorvetersanal tem os melhores sabores de sorvete do Mundo! confira ja.',
+};
+
 const Sabores = () => {
   const sabores = [
     {

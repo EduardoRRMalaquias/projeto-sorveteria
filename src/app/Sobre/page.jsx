@@ -7,6 +7,12 @@ import './sobre.css';
 import pesoasSobre from '../../../public/sobre-image.jpg';
 import sorveteriaSobre from '../../../public/sorveteria.jpg';
 
+export const metadata = {
+  title: 'Gelateria | Sobre Nos',
+  description:
+    'Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada',
+};
+
 const Sobre = () => {
   return (
     <>

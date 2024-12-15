@@ -7,6 +7,13 @@ import homeSabores from '../../public/banner-sabores.jpg';
 import homeEventos from '../../public/eventos-image.jpg';
 import homeSobre from '../../public/sobre-image.jpg';
 
+export const metadata = {
+  title: 'Gelateria',
+  description:
+    'Nossos clientes podem comprar os nossos sorvetes e degustar na nossa' +
+    'loja ou levar para sua residência e aproveitar junto com a família.',
+};
+
 export default function Home() {
   const propagandas = [
     {
